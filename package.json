@@ -10,12 +10,18 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
     "mysql": "^2.18.1",
-    "mysql2": "^3.11.3",
+    "mysql2": "^3.11.4",
     "nodemailer": "^6.9.15",
     "stripe": "^17.2.0",
     "uuid": "^10.0.0",
     "ws": "^8.18.0"
   },
+  "files": [
+    "service.json",
+    "views/index.ejs",
+    "db.js"  // add this to explicitly include service.json
+  ],
+
   "name": "nodelecture1_payment",
   "version": "1.0.0",
   "main": "server.js",
