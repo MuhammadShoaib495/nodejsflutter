@@ -22,7 +22,7 @@
     "ws": "^8.18.0"
   },
   "engines": {
-    "node": "16.x"
+    "node": "16.16.0"
   },
   "files": [
     "service.json",
