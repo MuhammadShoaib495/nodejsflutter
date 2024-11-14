@@ -22,7 +22,7 @@
     "ws": "^8.18.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": "22.7.0"
   },
   "files": [
     "service.json",
