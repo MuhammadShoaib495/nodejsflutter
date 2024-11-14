@@ -1,4 +1,10 @@
 {
+  "name": "nodelecture1_payment",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Shoaib",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
@@ -19,18 +25,11 @@
   "files": [
     "service.json",
     "views/index.ejs",
-    "db.js"  // add this to explicitly include service.json
+    "db.js"
   ],
-
-  "name": "nodelecture1_payment",
-  "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shoaib",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/stripe": "^8.0.416"
   }
