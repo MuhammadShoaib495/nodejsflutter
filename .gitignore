@@ -1,0 +1,15 @@
+# Ignore node modules
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore temporary files
+tmp/
+
+# Ignore environment files
+.env
+
+db.js
+
+uploads/
