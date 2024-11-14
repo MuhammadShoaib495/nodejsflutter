@@ -1,11 +1,11 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    port: '3306',
-    user: 'Shoaib',
-    password: 'Kingcar321$',
-    database: 'fullstack',
+    host: 'autorack.proxy.rlwy.net',
+    port: '10396',
+    user: 'root',
+    password: 'pKtOempbITFauOaoMWKaFNsDQciMqryW',
+    database: 'railway',
 });
 
 connection.connect((err) => {
@@ -17,3 +17,7 @@ connection.connect((err) => {
   });
   
 module.exports = connection;
+
+
+
+
