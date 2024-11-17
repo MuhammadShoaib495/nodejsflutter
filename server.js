@@ -9,7 +9,6 @@ const authRoutes = require('./routes/auth');
 const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
 const websocket = require('ws');
-const { TIMESTAMP } = require('mysql/lib/protocol/constants/types');
 const secretKey = '47ffec81c5a2fe56d0a30e0c5b8df59b72673fffb9cb929c0d95d2a42929d969';
 const multer = require('multer');
 const path = require('path');
